@@ -1,0 +1,40 @@
+# General
+*.log
+.DS_Store
+dist/
+coverage/
+
+# Node
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# React Native
+.metro/
+.watchmanconfig
+
+# Android
+android/build/
+android/app/build/
+android/.gradle/
+android/local.properties
+android/*.iml
+android/.idea/
+android/app/src/main/assets/index.android.bundle
+
+# iOS
+ios/Pods/
+ios/build/
+ios/DerivedData/
+ios/*.xcworkspace
+!ios/*.xcworkspace/contents.xcworkspacedata
+ios/*.xcodeproj/project.xcworkspace
+!ios/*.xcodeproj/project.xcworkspace/contents.xcworkspacedata
+ios/*.xcodeproj/xcuserdata/
+
+# Editors / IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
